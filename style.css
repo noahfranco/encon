@@ -1,20 +1,43 @@
- body { 
-    width: 800px; 
-    height: 800px;
-    display: flex; 
-    flex-direction: row-reverse;  
+ .pagecontainer {
     
+ }
+
+
+ header { 
+    display: flex; 
+    justify-content: center; 
+    margin: 50px; 
  } 
 
-.child1 {
+.box1 {
     width: 500px; 
     height: 500px;
-    background: green; 
+    background: green;
+    margin: 5px; 
 }
 
- .child2 {
+ .box2 {
     width: 500px; 
     height: 500px; 
     background: blue; 
+    margin: 5px; 
 }
 
+/* Play around with muiltiple items using Flexbox  */
+
+.secondcontainer {
+     display: flex; 
+     align-items: center; 
+     justify-content: center; 
+     justify-content: space-around;
+
+    
+}
+
+.box3 {
+    width: 200px; 
+    height: 200px;
+    background: black; 
+    color: white; 
+
+}
